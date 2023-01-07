@@ -40,5 +40,4 @@ Gelen cevap FAIL ise işlem başarısız deniyor ve yeni işlem bekleniyor.
 LOGIN işlemi sadece girişte girilen kullanıcı adı ve şifre için gönderiliyor.
 Başarılı login işlemi sonrasında kullanıcı
 DEPOSIT - WITHDRAW - TRANSFER - LOGOUT komutlarını kullanabiliyor. Komutlar için gerekli parametreler de ekrana yazdırılıyor.
-
 LOGOUT komutuna SUCCESS dönerse program (client) sonlandırılıyor.
