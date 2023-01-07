@@ -5,6 +5,7 @@ g++ on command line üzerinden derlenemedi. (mutex and thread header dosyaları 
 Visual Studio 2022 ile derleme ve çalıştırmada bir problem ile karşılaşılmadı.
 
 --SERVER--
+
 Server önce .txt dosyasından kullanıcı bilgilerini bir unordered_map yapısına kaydediyor.
 Kullanıcılar ID password name surname bank balance yapısından oluşuyor.
 ID aynı zamanda map için key olarak kullanılıyor. 
@@ -27,6 +28,7 @@ Bu şekilde sonlandırma, accept fonksiyonunun blocking olmasından dolayı yap�
 Listening socket kapatıldığında accept fonksiyonu da hata döndürüp while döngüsünden çıkılarak programın sonlanabilmesini sağlıyor.
 
 --CLIENT--
+
 Client çalıştırıldığında server'a bağlanıyor ve kullanıcı adı - şifre istiyor.
 (login olmak için user.txt'den kullanıcı adları ve şifrelere bakılabilir)
 Login başarılı olursa bir kullanım talimatı yazdırılıyor ve operation girilmesi bekleniyor.
